@@ -22,33 +22,36 @@ public class Buttons : MonoBehaviour
     public GameObject FaceFilternine;
     public GameObject FaceFilterten;*/
   
-    public Button bt1;
-    public Button bt2;
-    public Button bt3;
-    public Button bt4;
-    public Button bt5;
-    public Button bt6;
-    public Button bt7;
-    public Button bt8;
-    public Button bt9;
-    public Button bt10;
-    public Button bt11;
-    public Button bt12;
-    public Button bt13;
-    public Button bt14;
-    public Button bt15;
-    public Button bt16;
-    public Button bt17;
-    public Button bt18;
-    public Button bt19;
-    public Button bt20;
-    public Button bt21;
-    public Button bt22;
-    public Button bt23;
-    public Button bt24;
+    public Button btAfro;
+    public Button btBeardFlower;
+    public Button btFootballsFanEagle;
+    public Button btButterFlies;
+    public Button btTarantula;
+    public Button btOctoberFastMen;
+    public Button btglasses_AviatorGold;
+    public Button btglasses_AviatorMrror;
+    public Button btglasses_BeautyGlasses;
+    public Button btBreakingBad;
+    public Button btBrutanMan;
+    public Button btCoachella;
+    public Button btDior;
+    public Button btDoggy;
+    public Button btMetalFrame;
+    public Button btPeachHairStyle;
+    public Button btPinkGlasses;
+    public Button btPlaygendary;
+    public Button btRound;
+    public Button btStanlee;
+    public Button btTonyStark;
+    public Button btWhite;
+    public Button btCaitineNecklase;
+    public Button btPanaEaring;
+    public Button btPotterBirthday;
     public Button openActionUnitScene;
     public Button openBeautificationScene;
-    //public Button open
+    public Button openMorphingScene;
+    public Button openSegmentation;
+    //public Button backtoscene1;
 
 
     
@@ -56,33 +59,36 @@ public class Buttons : MonoBehaviour
 
     void Start()
     {
-        bt1.onClick.AddListener(open1);
-        bt2.onClick.AddListener(open2);
-        bt3.onClick.AddListener(open3);
-        bt4.onClick.AddListener(open4);
-        bt5.onClick.AddListener(open5);
-        bt6.onClick.AddListener(open6);
-        bt7.onClick.AddListener(open7);
-        bt8.onClick.AddListener(open8);
-        bt9.onClick.AddListener(open9);
-        bt10.onClick.AddListener(open10);
-        bt11.onClick.AddListener(open11);
-        bt12.onClick.AddListener(open12);
-        bt13.onClick.AddListener(open13);
-        bt14.onClick.AddListener(open14);
-        bt15.onClick.AddListener(open15);
-        bt16.onClick.AddListener(open16);
-        bt17.onClick.AddListener(open17);
-        bt18.onClick.AddListener(open18);
-        bt19.onClick.AddListener(open19);
-        bt20.onClick.AddListener(open20);
-        bt21.onClick.AddListener(open21);
-        bt22.onClick.AddListener(open22);
-        bt23.onClick.AddListener(open23);
-        //bt24.onClick.AddListener(open24);
+        btAfro.onClick.AddListener(open1);
+        btBeardFlower.onClick.AddListener(open2);
+        btFootballsFanEagle.onClick.AddListener(open3);
+        btButterFlies.onClick.AddListener(open4);
+        btTarantula.onClick.AddListener(open5);
+        btOctoberFastMen.onClick.AddListener(open6);
+        btglasses_AviatorGold.onClick.AddListener(open7);
+        btglasses_AviatorMrror.onClick.AddListener(open8);
+        btglasses_BeautyGlasses.onClick.AddListener(open9);
+        btBreakingBad.onClick.AddListener(open10);
+        btBrutanMan.onClick.AddListener(open11);
+        btCoachella.onClick.AddListener(open12);
+        btDior.onClick.AddListener(open13);
+        btDoggy.onClick.AddListener(open14);
+        btMetalFrame.onClick.AddListener(open15);
+        btPeachHairStyle.onClick.AddListener(open16);
+        btPinkGlasses.onClick.AddListener(open17);
+        btPlaygendary.onClick.AddListener(open18);
+        btRound.onClick.AddListener(open19);
+        btStanlee.onClick.AddListener(open20);
+        btTonyStark.onClick.AddListener(open21);
+        btWhite.onClick.AddListener(open22);
+        btCaitineNecklase.onClick.AddListener(open23);
+        btPanaEaring.onClick.AddListener(open24);
+        btPotterBirthday.onClick.AddListener(open25);
         openActionUnitScene.onClick.AddListener(OpenActionUnitScene);
         openBeautificationScene.onClick.AddListener(OpenBeautificationScene);
-        
+        openMorphingScene.onClick.AddListener(OpenMorphingScene);
+        openSegmentation.onClick.AddListener(OpenSegmentation);
+        //backtoscene1.onClick.AddListener(Backtoscene1);
     }
 
     public void ActivateGamePanels(GameObject gamePanel)
@@ -96,132 +102,184 @@ public class Buttons : MonoBehaviour
 
     void open1()
     {
+        Debug.Log("open1");
         ActivateGamePanels(FaceFilters[0]);
     }
 
     void open2()
     {
+        Debug.Log("open2");
         ActivateGamePanels(FaceFilters[1]);
     }
 
     void open3()
     {
+        Debug.Log("open3");
         ActivateGamePanels(FaceFilters[2]);
     }
 
     void open4()
     {
+        Debug.Log("open4");
         ActivateGamePanels(FaceFilters[3]);
     }
 
     void open5()
     {
+        Debug.Log("open5");
         ActivateGamePanels(FaceFilters[4]);
     }
 
     void open6()
     {
+        Debug.Log("open6");
         ActivateGamePanels(FaceFilters[5]);
     }
 
     void open7()
     {
+        Debug.Log("open7");
         ActivateGamePanels(FaceFilters[6]);
     }
 
     void open8()
     {
+        Debug.Log("open8");
         ActivateGamePanels(FaceFilters[7]);
     }
 
     void open9()
     {
+        Debug.Log("open9");
         ActivateGamePanels(FaceFilters[8]);
     }
 
     void open10()
     {
+        Debug.Log("open10");
         ActivateGamePanels(FaceFilters[9]);
     }
 
     void open11()
     {
+        Debug.Log("open11");
         ActivateGamePanels(FaceFilters[10]);
     }
 
     void open12()
     {
+        Debug.Log("open12");
         ActivateGamePanels(FaceFilters[11]);
     }
 
     void open13()
     {
+        Debug.Log("open13");
         ActivateGamePanels(FaceFilters[12]);
     }
 
     void open14()
     {
+        Debug.Log("open14");
         ActivateGamePanels(FaceFilters[13]);
     }
 
     void open15()
     {
+        Debug.Log("open15");
         ActivateGamePanels(FaceFilters[14]);
     }
 
     void open16()
     {
+        Debug.Log("open16");
         ActivateGamePanels(FaceFilters[15]);
     }
 
     void open17()
     {
+        Debug.Log("open17");
         ActivateGamePanels(FaceFilters[15]);
     }
 
     void open18()
     {
+        Debug.Log("open18");
         ActivateGamePanels(FaceFilters[16]);
     }
 
     void open19()
     {
+        Debug.Log("open19");
         ActivateGamePanels(FaceFilters[17]);
     }
 
     void open20()
     {
+        Debug.Log("open20");
         ActivateGamePanels(FaceFilters[18]);
     }
 
     void open21()
     {
+        Debug.Log("open21");
         ActivateGamePanels(FaceFilters[19]);
     }
 
     void open22()
     {
+        Debug.Log("open22");
         ActivateGamePanels(FaceFilters[20]);
     }
 
     void open23()
     {
+        Debug.Log("open23");
         ActivateGamePanels(FaceFilters[21]);
+    }
+
+    void open24()
+    {
+        Debug.Log("open24");
+        ActivateGamePanels(FaceFilters[22]);
+    }
+
+    void open25()
+    {
+        Debug.Log("open25");
+        ActivateGamePanels(FaceFilters[24]);
     }
 
 
 
-  public  void OpenActionUnitScene()
+    public  void OpenActionUnitScene()
     {
-        Debug.Log("loggg");
+        Debug.Log("open25");
         SceneManager.LoadScene(3);
     }
     
     public  void OpenBeautificationScene()
     {
-        Debug.Log("loggg");
+        Debug.Log("open26");
         SceneManager.LoadScene(4);
     }
 
+    public void OpenMorphingScene()
+    {
+        Debug.Log("open26");
+        SceneManager.LoadScene(5);
+    }
+
+    public void OpenSegmentation()
+    {
+        Debug.Log("open26");
+        SceneManager.LoadScene(6);
+    }
+
+    /*public void Backtoscene1()
+    {
+        Debug.Log("open26");
+        SceneManager.LoadScene(1);
+    }*/
 }
 
