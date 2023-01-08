@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class BackButtons : MonoBehaviour
+public class beautificationButtons : MonoBehaviour
 {
     public Button backtoscene1;
 
