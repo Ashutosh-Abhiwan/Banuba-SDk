@@ -40,7 +40,7 @@ public class UiController : MonoBehaviour
     public Button openBeautificationScene;
     public Button openMorphingScene;
     public Button openSegmentation;
-    //public Button backtoscene1;
+    public Button handskalaten;
 
 
 
@@ -85,6 +85,7 @@ public class UiController : MonoBehaviour
         btCaitineNecklase.onClick.AddListener(delegate { OnFilter(22); });
         btPanaEaring.onClick.AddListener(delegate { OnFilter(23); });
         btPotterBirthday.onClick.AddListener(delegate { OnFilter(24); });
+        handskalaten.onClick.AddListener(delegate { OnFilter(25); });
 
 
         openActionUnitScene.onClick.AddListener(OpenActionUnitScene);
